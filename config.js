@@ -9,7 +9,7 @@ const CONFIG = {
   // ── 메인 (히어로) ──
   groom: {
     name: "조승현",
-    nameEn: "SEUNGHYUN",
+    nameEn: "조 승 현",
     father: "조재철",
     mother: "이신경",
     fatherDeceased: false,
@@ -18,7 +18,7 @@ const CONFIG = {
 
   bride: {
     name: "이은솔",
-    nameEn: "EUNSOL",
+    nameEn: "이 은 솔",
     father: "이해진",
     mother: "이순영",
     fatherDeceased: false,
@@ -46,7 +46,7 @@ const CONFIG = {
 
   // ── STAGE 2. INVITATION ──
   story: {
-    title: "",
+    title: "초청 (招請)",
     content: "어제까지의 견고했던 각자의 삶을 뒤로하고,\n부부라는 이름으로 하나의 길을 엽니다.\n\n나보다 서로를 먼저 묻고 보듬는 삶.\n나를 비우고 상대를 채워가는 낯선 걸음이겠지만,\n기꺼이 그 평화로운 수고를 감당하려 합니다.\n\n때로는 고요한 그늘이 되어 마음을 쉬게 하고,\n때로는 환한 빛으로 서로를 이끌며\n오직 둘이기에 가능한 맑은 화음을 빚어내겠습니다.\n\n두 사람이 흔들림 없이 이 언약을 지켜가도록,\n부부로서 첫 호흡을 맞추는 날\n부디 귀한 걸음으로 오시어 증인이 되어 주십시오."
   },
 
