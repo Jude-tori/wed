@@ -553,10 +553,10 @@
         `<div class="account-item">
           <div class="account-info">
             <div class="account-role">${acc.role}</div>
-            <div class="account-detail">
-              <span class="account-name">${acc.name}</span>
-              ${acc.bank} ${acc.number}
-            </div>
+            <div class="account-detail" style="text-align: left; padding-top: 4px;">
+             <div style="font-size: 15px; color: #333; margin-bottom: 2px; letter-spacing: 0.05em;">${acc.number}</div>
+             <div style="font-size: 13px; color: #888;">${acc.bank} ${acc.name}</div>
+          </div>
           </div>
           <button class="btn-copy-account" data-copy="${acc.bank} ${acc.number} ${acc.name}">복사</button>
         </div>`

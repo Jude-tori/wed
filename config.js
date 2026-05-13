@@ -1,22 +1,10 @@
 /**
  * Modern Minimal Wedding Invitation Configuration
- *
- * Edit the values below to customize your wedding invitation.
- * Image files should be placed in the corresponding images/ subfolders
- * using sequential filenames (1.jpg, 2.jpg, ...).
- * The code auto-detects images by trying sequential filenames.
- *
- * Image folder conventions:
- *   images/hero/1.jpg       - Main wedding photo (single file)
- *   images/story/1.jpg, ... - Story section photos (auto-detected)
- *   images/gallery/1.jpg, . - Gallery photos (auto-detected)
- *   images/location/1.jpg   - Venue/map image (single file)
- *   images/og/1.jpg         - Kakao share thumbnail (single file)
  */
 
 const CONFIG = {
   // ── 초대장 열기 ──
-  useCurtain: true,  // 초대장 열기 화면 사용 여부 (true: 사용, false: 바로 본문 표시)
+  useCurtain: true,
 
   // ── 메인 (히어로) ──
   groom: {
@@ -50,39 +38,34 @@ const CONFIG = {
     }
   },
 
-  // ── 인사말 ──
+  // ── STAGE 1. COVENANT ──
   invitation: {
-    title: "소중한 분들을 초대합니다",
-    message: "서로 다른 길을 걸어온 두 사람이\n이제 같은 길을 함께 걸어가려 합니다.\n\n바쁘시더라도 오셔서\n축복해 주시면 감사하겠습니다."
+    title: "COVENANT",
+    message: "나를 허물어 우리를 세우는,\n단단한 약속.\n\n승현 그리고 은솔\n\n두 사람의 진실한 언약의 자리에\n소중한 분들을 모십니다."
   },
 
-  // ── 우리의 이야기 ──
+  // ── STAGE 2. INVITATION ──
   story: {
-    title: "우리의 이야기",
-    content: "서로 다른 길을 걷던 두 사람이\n하나의 길을 함께 걷게 되었습니다.\n\n여러분을 소중한 자리에 초대합니다."
+    title: "",
+    content: "어제까지의 견고했던 각자의 삶을 뒤로하고,\n부부라는 이름으로 하나의 길을 엽니다.\n\n나보다 서로를 먼저 묻고 보듬는 삶.\n나를 비우고 상대를 채워가는 낯선 걸음이겠지만,\n기꺼이 그 평화로운 수고를 감당하려 합니다.\n\n때로는 고요한 그늘이 되어 마음을 쉬게 하고,\n때로는 환한 빛으로 서로를 이끌며\n오직 둘이기에 가능한 맑은 화음을 빚어내겠습니다.\n\n두 사람이 흔들림 없이 이 언약을 지켜가도록,\n부부로서 첫 호흡을 맞추는 날\n부디 귀한 걸음으로 오시어 증인이 되어 주십시오."
   },
-
-  // ── 오시는 길 ──
-  // (mapLinks는 wedding 객체 내에 포함)
 
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "조승현", bank: "OO은행", number: "000-000-000000" },
-      { role: "아버지", name: "조재철", bank: "OO은행", number: "000-000-000000" },
-      { role: "어머니", name: "이신경", bank: "OO은행", number: "000-000-000000" }
+      { role: "신랑", name: "조승현", bank: "신한은행", number: "110-523-547831" },
+      { role: "아버지", name: "조재철", bank: "신협", number: "132-062-486076" },
+      { role: "어머니", name: "이신경", bank: "씨티은행", number: "446-23540-267" }
     ],
     bride: [
-      { role: "신부", name: "이은솔", bank: "OO은행", number: "000-000-000000" },
-      { role: "아버지", name: "이해진", bank: "OO은행", number: "000-000-000000" },
-      { role: "어머니", name: "이순영", bank: "OO은행", number: "000-000-000000" }
+      { role: "신부", name: "이은솔", bank: "하나은행", number: "333-910088-92607" },
+      { role: "아버지", name: "이해진", bank: "OO은행", number: "333-910001-54307" }
     ]
   },
 
-  // ── 링크 공유 시 나타나는 문구 ──
   kakaoShare: {
     jsKey: "",
-    title: "결혼식에 초대합니다",
-    description: ""
+    title: "조승현 ♥ 이은솔 결혼식에 초대합니다",
+    description: "2026년 6월 20일 오후 2시, 덕수교회"
   }
 };
